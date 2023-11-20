@@ -17,7 +17,7 @@ spec:
         image: mysql:5.7
         env:
         - name: MYSQL_ROOT_PASSWORD
-          value: 123  # 请替换为您的密码
+          value: "123"
         ports:
         - containerPort: 3306
 
